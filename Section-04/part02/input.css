@@ -23,8 +23,12 @@
     height: theme('spacing.128');
 }
 
-@media screen(xl) {
-    body {
-        @apply bg-black
+@layer utilities {
+    @media (min-width: 1280px) {
+      /* Tailwind's `xl` breakpoint starts at 1280px */
+      body {
+        @apply bg-black;
+      }
     }
-}
+  }
+  
