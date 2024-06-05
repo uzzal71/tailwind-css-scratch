@@ -615,6 +615,10 @@ h5 {
   margin-bottom: 2.5rem;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
 .mb-24 {
   margin-bottom: 6rem;
 }
@@ -623,52 +627,28 @@ h5 {
   margin-bottom: 10rem;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
-.mt-20 {
-  margin-top: 5rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
+.mb-6 {
+  margin-bottom: 1.5rem;
 }
 
 .mt-16 {
   margin-top: 4rem;
 }
 
-.mb-16 {
-  margin-bottom: 4rem;
-}
-
-.mb-6 {
-  margin-bottom: 1.5rem;
-}
-
 .flex {
   display: flex;
-}
-
-.h-10 {
-  height: 2.5rem;
-}
-
-.w-10 {
-  width: 2.5rem;
 }
 
 .max-w-3xl {
   max-width: 48rem;
 }
 
-.max-w-md {
-  max-width: 28rem;
-}
-
 .max-w-6xl {
   max-width: 72rem;
+}
+
+.max-w-md {
+  max-width: 28rem;
 }
 
 .scale-50 {
@@ -683,10 +663,6 @@ h5 {
 
 .items-center {
   align-items: center;
-}
-
-.justify-center {
-  justify-content: center;
 }
 
 .justify-between {
@@ -715,6 +691,11 @@ h5 {
   border-radius: 9999px;
 }
 
+.bg-gray-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}
+
 .bg-lightBlue {
   --tw-bg-opacity: 1;
   background-color: hsl(233 100% 69% / var(--tw-bg-opacity));
@@ -723,11 +704,6 @@ h5 {
 .bg-strongCyan {
   --tw-bg-opacity: 1;
   background-color: hsl(171 66% 44% / var(--tw-bg-opacity));
-}
-
-.bg-gray-50 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
 .p-4 {
@@ -848,10 +824,6 @@ body {
     position: absolute;
   }
 
-  .md\:mt-0 {
-    margin-top: 0px;
-  }
-
   .md\:mb-60 {
     margin-bottom: 15rem;
   }
@@ -864,26 +836,22 @@ body {
     flex-direction: row;
   }
 
-  .md\:space-x-32 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(8rem * var(--tw-space-x-reverse));
-    margin-left: calc(8rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
   .md\:space-x-12 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(3rem * var(--tw-space-x-reverse));
     margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
+  .md\:space-x-32 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(8rem * var(--tw-space-x-reverse));
+    margin-left: calc(8rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
   .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
-  }
-
-  .md\:pt-0 {
-    padding-top: 0px;
   }
 
   .md\:pl-16 {
